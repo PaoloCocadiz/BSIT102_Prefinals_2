@@ -8,7 +8,7 @@ import java.util.Scanner;
 		public static void main(String[]args) throws Exception
 		{
 			
-			System.out.println("Enter the file name :");
+			System.out.println("Enter the file name :");     //file name
 			Scanner pao = new Scanner(System.in);
 			
 			File filer = new File(pao.nextLine() + ".abc");
